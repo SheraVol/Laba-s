@@ -1,0 +1,4 @@
+@startuml
+VIIM21->gruppa: zadacha
+gruppa --> VIIM21: Zadanie
+@enduml
