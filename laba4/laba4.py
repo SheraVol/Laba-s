@@ -12,9 +12,10 @@ def main():
         y=np.sin(2*x*np.pi)
         print("Интервал от", -a, "до",a, "c шагом", b)
         plt.plot(x,y)
+        plt.savefig('Func/laba44.svg')
         plt.show()
         plt.draw()
-        plt.savefig('Func/laba44.png')
+
 
 
 file_path = r'Func/Chisla.conf'
