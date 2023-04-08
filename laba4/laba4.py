@@ -14,7 +14,7 @@ def main():
         plt.plot(x,y)
         plt.show()
         plt.draw()
-        plt.savefig('Func/laba44.svg')
+        plt.savefig('Func/laba44.png')
 
 
 file_path = r'Func/Chisla.conf'
